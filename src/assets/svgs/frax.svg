@@ -1,0 +1,14 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 54" width="512" height="512">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none; stroke-width: 5.878 } 
+		.shp1 { fill: none; stroke-width: 6.2 } 
+	</style>
+	<g id="layer2">
+		<path id="path2170" class="shp0" d="M38.78 27.38C38.78 30.52 37.53 33.53 35.31 35.75C33.09 37.98 30.08 39.22 26.93 39.22C23.79 39.22 20.78 37.98 18.55 35.75C16.33 33.53 15.08 30.52 15.08 27.38C15.08 24.23 16.33 21.22 18.55 19C20.78 16.77 23.79 15.53 26.93 15.53C30.08 15.53 33.09 16.77 35.31 19C37.53 21.22 38.78 24.23 38.78 27.38L38.78 27.38Z" />
+		<path id="path3145" class="shp1" d="M18.48 18.74L11.7 12.27L18.48 18.74Z" />
+		<path id="path3147" class="shp1" d="M35.72 18.89L42.19 12.12L35.72 18.89Z" />
+		<path id="path3149" class="shp1" d="M42.5 42.76L35.72 36.29L42.5 42.76Z" />
+		<path id="path3151" class="shp1" d="M11.39 42.91L17.86 36.14L11.39 42.91Z" />
+	</g>
+</svg>

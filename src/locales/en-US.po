@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: src/pages/Resources/index.tsx
+msgid "A list of readings, blogs, and podcasts on all things FRAX."
+msgstr "A list of readings, blogs, and podcasts on all things FRAX."
+
+#: src/pages/Home/Intro.tsx
+msgid "A new paradigm in open-source, decentralized money."
+msgstr "A new paradigm in open-source, decentralized money."
+
+#~ msgid "AMO (Algorithmic Market Operations Controller) are modules that enact arbitrary monetary policy so long as they they don&apos;t change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically (as in the name), but they cannot arbitrarily mint FRAX out of thin air and the peg."
+#~ msgstr "AMO (Algorithmic Market Operations Controller) are modules that enact arbitrary monetary policy so long as they they don&apos;t change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically (as in the name), but they cannot arbitrarily mint FRAX out of thin air and the peg."
+
+#: src/pages/Amo/index.tsx
+msgid "AMO (Algorithmic Market Operations Controller) are modules that enact arbitrary monetary policy so long as they they don't change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically (as in the name), but they cannot arbitrarily mint FRAX out of thin air and the peg."
+msgstr "AMO (Algorithmic Market Operations Controller) are modules that enact arbitrary monetary policy so long as they they don't change the FRAX price off its peg. This means that AMO controllers can perform open market operations algorithmically (as in the name), but they cannot arbitrarily mint FRAX out of thin air and the peg."
+
+#: src/pages/Amo/index.tsx
+msgid "AMO Original Announcement by Sam Kazemian"
+msgstr "AMO Original Announcement by Sam Kazemian"
+
+#: src/pages/Amo/index.tsx
+msgid "AMO Whitepaper"
+msgstr "AMO Whitepaper"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/Amo/index.tsx
+msgid "AMOs"
+msgstr "AMOs"
+
+#: src/pages/Home/RevenuesChart/RevenuesScene/StakingRewardsChartTooltip.tsx
+msgid "Accrued Profits"
+msgstr "Accrued Profits"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/AlgoStable/index.tsx
+msgid "Algorithmic Design"
+msgstr "Algorithmic Design"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "Analytics"
+msgstr "Analytics"
+
+#: src/components/HeaderMenu/index.tsx
+msgid "Brightness"
+msgstr "Brightness"
+
+#: src/pages/Home/Tokens.tsx
+msgid "Buy FRAX"
+msgstr "Buy FRAX"
+
+#: src/pages/Home/Tokens.tsx
+msgid "Buy FXS"
+msgstr "Buy FXS"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "Community"
+msgstr "Community"
+
+#: src/pages/Home/RevenuesChart/RevenuesScene/StakingRewardsChartTooltip.tsx
+msgid "Date"
+msgstr "Date"
+
+#: src/components/Header/index.tsx
+msgid "Discord"
+msgstr "Discord"
+
+#: src/components/Footer/index.tsx
+msgid "Documentation"
+msgstr "Documentation"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/FPI/index.tsx
+msgid "FPI Token"
+msgstr "FPI Token"
+
+#: src/pages/Home/Tokens.tsx
+msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
+msgstr "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
+
+#: src/pages/FPI/index.tsx
+msgid "FPI will be launching Nov/Dec 2021."
+msgstr "FPI will be launching Nov/Dec 2021."
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "FRAX Dashboard"
+msgstr "FRAX Dashboard"
+
+#: src/pages/FRAX/index.tsx
+msgid "FRAX Minting and Redeeming"
+msgstr "FRAX Minting and Redeeming"
+
+#: src/pages/FRAX/index.tsx
+msgid "FRAX Price Stability Mechanism"
+msgstr "FRAX Price Stability Mechanism"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/FRAX/index.tsx
+msgid "FRAX Token"
+msgstr "FRAX Token"
+
+#: src/pages/FRAX/index.tsx
+msgid "FRAX is the dollar pegged stablecoin. It can always be minted and redeemed from the system for $1 of value. This allows arbitragers to balance the demand and supply of FRAX in the open market."
+msgstr "FRAX is the dollar pegged stablecoin. It can always be minted and redeemed from the system for $1 of value. This allows arbitragers to balance the demand and supply of FRAX in the open market."
+
+#: src/pages/Home/Tokens.tsx
+msgid "FRAX tokens are dollar pegged stablecoins (1 ≈ 1 USD). The peg is maintained with a partial collateral, partial algorithmic design."
+msgstr "FRAX tokens are dollar pegged stablecoins (1 ≈ 1 USD). The peg is maintained with a partial collateral, partial algorithmic design."
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "FXS Dashboard"
+msgstr "FXS Dashboard"
+
+#: src/pages/FXS/index.tsx
+msgid "FXS Overview"
+msgstr "FXS Overview"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/FXS/index.tsx
+msgid "FXS Token"
+msgstr "FXS Token"
+
+#: src/pages/Home/Tokens.tsx
+msgid "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
+msgstr "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
+
+#: src/pages/AlgoStable/index.tsx
+msgid "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the \"fractional-algorithmic\" stability mechanism."
+msgstr "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the \"fractional-algorithmic\" stability mechanism."
+
+#~ msgid "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the &quot;fractional-algorithmic&quot; stability mechanism."
+#~ msgstr "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the &quot;fractional-algorithmic&quot; stability mechanism."
+
+#: src/pages/Home/Intro.tsx
+msgid "Frax is the world's first fractional-algorithmic stablecoin."
+msgstr "Frax is the world's first fractional-algorithmic stablecoin."
+
+#: src/pages/Home/Revenues.tsx
+msgid "Frax uses AMOs to perform open market operations algorithmicly. Profits from the operations accrew to the holders of FXS via buying and burning FXS tokens."
+msgstr "Frax uses AMOs to perform open market operations algorithmicly. Profits from the operations accrew to the holders of FXS via buying and burning FXS tokens."
+
+#~ msgid "Frax&apos;s end vision is to build the first crypto native version of the CPI called the Frax Price Index (FPI) governed by FXS holders (and other protocol tokens). FRAX is currently pegged to USD but aspires to become the first decentralized, permissionless native unit of account which holds standard of living stable."
+#~ msgstr "Frax&apos;s end vision is to build the first crypto native version of the CPI called the Frax Price Index (FPI) governed by FXS holders (and other protocol tokens). FRAX is currently pegged to USD but aspires to become the first decentralized, permissionless native unit of account which holds standard of living stable."
+
+#: src/pages/AlgoStable/index.tsx
+msgid "How FRAX Maintains Price Stability"
+msgstr "How FRAX Maintains Price Stability"
+
+#: src/components/HeaderMenu/index.tsx
+msgid "Language"
+msgstr "Language"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "Learn"
+msgstr "Learn"
+
+#: src/pages/Home/Revenues.tsx
+#: src/pages/Home/Tokens.tsx
+#: src/pages/Home/Tokens.tsx
+msgid "Learn More"
+msgstr "Learn More"
+
+#: src/pages/FPI/index.tsx
+msgid "More info coming soon..."
+msgstr "More info coming soon..."
+
+#: src/pages/Resources/index.tsx
+msgid "Ordered by most recent."
+msgstr "Ordered by most recent."
+
+#: src/pages/Home/Tokens.tsx
+msgid "Price"
+msgstr "Price"
+
+#: src/pages/Home/Revenues.tsx
+msgid "Protocol Revenues"
+msgstr "Protocol Revenues"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+#: src/pages/Resources/index.tsx
+msgid "Resources"
+msgstr "Resources"
+
+#~ msgid "Switch Dark Mode"
+#~ msgstr "Switch Dark Mode"
+
+#~ msgid "Switch Light Mode"
+#~ msgstr "Switch Light Mode"
+
+#: src/components/Header/index.tsx
+msgid "Telegram"
+msgstr "Telegram"
+
+#: src/pages/Home/Tokens.tsx
+msgid "The 3 Tokens"
+msgstr "The 3 Tokens"
+
+#: src/pages/FXS/index.tsx
+msgid "The Frax Share token (FXS) is the non-stable, utility token in the protocol. It is meant to be volatile and rights to governance and all utility of the system. It is important to note that we take a highly governance-minimized approach to designing trustless money in the same ethos as Bitcoin."
+msgstr "The Frax Share token (FXS) is the non-stable, utility token in the protocol. It is meant to be volatile and rights to governance and all utility of the system. It is important to note that we take a highly governance-minimized approach to designing trustless money in the same ethos as Bitcoin."
+
+#: src/pages/Home/Intro.tsx
+msgid "The leading stable cryptocurrency"
+msgstr "The leading stable cryptocurrency"
+
+#~ msgid "This page is being built. In the meantime, here are some helpful links:"
+#~ msgstr "This page is being built. In the meantime, here are some helpful links:"
+
+#: src/pages/AlgoStable/index.tsx
+#: src/pages/Amo/index.tsx
+#: src/pages/FRAX/index.tsx
+#: src/pages/FXS/index.tsx
+msgid "This page is being worked on. In the meantime, here are some helpful links:"
+msgstr "This page is being worked on. In the meantime, here are some helpful links:"
+
+#: src/pages/Home/Tokens.tsx
+msgid "Total Supply"
+msgstr "Total Supply"
+
+#: src/components/Header/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "Trading App"
+msgstr "Trading App"
+
+#: src/components/Header/index.tsx
+msgid "Twitter"
+msgstr "Twitter"
+
+#: src/pages/AlgoStable/index.tsx
+msgid "Whitepaper"
+msgstr "Whitepaper"
+
+#: src/pages/FXS/index.tsx
+msgid "veFXS (FXS Staking)"
+msgstr "veFXS (FXS Staking)"
+
+#: src/components/HeaderMenu/index.tsx
+#: src/components/HeaderMenu/index.tsx
+msgid "{0}"
+msgstr "{0}"
