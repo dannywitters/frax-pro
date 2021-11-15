@@ -14,8 +14,10 @@ export default function Resources() {
 
   useEffect(() => {
     ;(async () => {
-      const response = await getResourceList(activeLocale)
-      setData(response)
+      try {
+        const response = await getResourceList(activeLocale)
+        setData(response)
+      } catch (e) {}
     })()
   }, [activeLocale])
 

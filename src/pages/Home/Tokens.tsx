@@ -1,17 +1,17 @@
 import { Trans } from '@lingui/macro'
 import numeral from 'numeral'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { useDarkModeManager } from 'state/user/hooks'
 
 import { getApiMainResults } from '../../apiCalls'
 import { ReactComponent as FraxIcon } from '../../assets/svgs/frax.svg'
 import { ReactComponent as FxsIcon } from '../../assets/svgs/fxs.svg'
-import { FRAX_BUY_LINK, FXS_BUY_LINK } from '../../constants/links'
+import FraxModal from '../../components/BuyModal/FraxModal'
+import FxsModal from '../../components/BuyModal/FxsModal'
 import {
   FPINotice,
   SectionTitle,
   SectionWrapper,
-  TokenBuyButton,
   TokenCard,
   TokenCardWrapper,
   TokenDescription,
@@ -19,20 +19,28 @@ import {
   TokenLearnLink,
   TokenNumberDesc,
   TokenNumberFormat,
+  TokenTradeButton,
 } from './styles'
 
 export const Tokens = () => {
   const [darkMode] = useDarkModeManager()
   const [fraxSupply, setFraxSupply] = useState('')
   const [fxsPrice, setFxsPrice] = useState('')
+  const [modalOpen, setModalOpen] = useState<boolean | string>(false)
+
+  const handleDismissTradeModal = useCallback(() => {
+    setModalOpen(false)
+  }, [setModalOpen])
 
   useEffect(() => {
     ;(async () => {
-      const response = await getApiMainResults()
-      const fraxSupply = response.core.frax.supply
-      const fxsPrice = response.core.fxs.price
-      setFraxSupply(fraxSupply)
-      setFxsPrice(fxsPrice)
+      try {
+        const response = await getApiMainResults()
+        const fraxSupply = response.core.frax.supply
+        const fxsPrice = response.core.fxs.price
+        setFraxSupply(fraxSupply)
+        setFxsPrice(fxsPrice)
+      } catch (e) {}
     })()
   }, [])
 
@@ -59,9 +67,9 @@ export const Tokens = () => {
           <TokenNumberDesc>
             <Trans>Total Supply</Trans>
           </TokenNumberDesc>
-          <TokenBuyButton href={FRAX_BUY_LINK} target="_blank">
-            <Trans>Buy FRAX</Trans>
-          </TokenBuyButton>
+          <TokenTradeButton onClick={() => setModalOpen('FRAX')}>
+            <Trans>Trade FRAX</Trans>
+          </TokenTradeButton>
         </TokenCard>
         <TokenCard>
           <TokenIconWrap>
@@ -80,9 +88,9 @@ export const Tokens = () => {
           <TokenNumberDesc>
             <Trans>Price</Trans>
           </TokenNumberDesc>
-          <TokenBuyButton href={FXS_BUY_LINK} target="_blank">
-            <Trans>Buy FXS</Trans>
-          </TokenBuyButton>
+          <TokenTradeButton onClick={() => setModalOpen('FXS')}>
+            <Trans>Trade FXS</Trans>
+          </TokenTradeButton>
         </TokenCard>
         <TokenCard>
           <FPINotice>
@@ -93,6 +101,8 @@ export const Tokens = () => {
           </FPINotice>
         </TokenCard>
       </TokenCardWrapper>
+      <FraxModal isOpen={modalOpen === 'FRAX' ? true : false} onDismiss={handleDismissTradeModal} />
+      <FxsModal isOpen={modalOpen === 'FXS' ? true : false} onDismiss={handleDismissTradeModal} />
     </SectionWrapper>
   )
 }

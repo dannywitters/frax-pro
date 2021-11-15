@@ -16,6 +16,11 @@ export const FRAX_GITHUB = 'https://github.com/FraxFinance/'
 export const FRAX_BUY_LINK = 'https://app.1inch.io/#/137/classic/swap/ETH/FRAX'
 export const FXS_BUY_LINK = 'https://app.1inch.io/#/137/classic/swap/ETH/FXS'
 
+export const FRAX_CMC_LINK = 'https://coinmarketcap.com/currencies/frax/'
+export const FRAX_COINGECKO_LINK = 'https://www.coingecko.com/en/coins/frax/'
+
+export const FRAX_PRO_ASSETS_BASE_URL = `https://files.frax.pro/svgs/`
+
 interface ResourceList {
   [lang: string]: string
 }

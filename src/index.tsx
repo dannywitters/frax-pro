@@ -1,3 +1,5 @@
+import '@reach/dialog/styles.css'
+
 import * as Sentry from '@sentry/react'
 import { Integrations } from '@sentry/tracing'
 import React from 'react'

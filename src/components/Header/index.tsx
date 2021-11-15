@@ -38,12 +38,12 @@ import {
 } from './styles'
 
 function LanguageMenuItem({ locale, key }: { locale: SupportedLocale; key: string }) {
-  const { to, onClick } = useLocationLinkProps(locale)
+  const { to } = useLocationLinkProps(locale)
 
   if (!to) return null
 
   return (
-    <LanguageCardRow onClick={onClick} key={key} to={to}>
+    <LanguageCardRow key={key} to={to}>
       {LOCALE_LABEL[locale]}
     </LanguageCardRow>
   )

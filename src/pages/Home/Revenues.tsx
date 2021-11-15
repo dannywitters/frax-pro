@@ -10,18 +10,20 @@ export const Revenues = () => {
 
   useEffect(() => {
     ;(async () => {
-      const response = await getApiRevenueResults()
+      try {
+        const response = await getApiRevenueResults()
 
-      const data: Array<any> = []
+        const data: Array<any> = []
 
-      response.full_items.map((item: { timestamp: any; combined: { accrued_profit: any } }) =>
-        data.push({
-          x: item.timestamp,
-          y: item.combined.accrued_profit,
-        })
-      )
+        response.full_items.map((item: { timestamp: any; combined: { accrued_profit: any } }) =>
+          data.push({
+            x: item.timestamp,
+            y: item.combined.accrued_profit,
+          })
+        )
 
-      setRevenueData(data)
+        setRevenueData(data)
+      } catch (e) {}
     })()
   }, [])
 

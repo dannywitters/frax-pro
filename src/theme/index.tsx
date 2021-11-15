@@ -67,7 +67,14 @@ function colors(darkMode: boolean): Colors {
     bg0: darkMode ? '#191b1d' : '#FFF',
     bg1: darkMode ? '#212429' : '#F7F8FA',
     bg2: darkMode ? '#2C2F36' : '#EDEEF2',
+    bg3: darkMode ? '#171818' : '#FFF',
 
+    // modal backgrounds
+    modalBG: darkMode ? 'rgba(0,0,0,.425)' : 'rgba(0,0,0,0.3)',
+    modalBBOn: darkMode ? '3px solid #fff' : '3px solid #333',
+    modalBBOff: darkMode ? '3px solid #26292c' : '3px solid #e5e5e5',
+
+    // backgrounds / greys
     bgColor: darkMode ? '#000' : '#f9f9f9',
     bgImage: darkMode
       ? 'linear-gradient(315deg, #2d3436 0%, #000000 74%)'
@@ -87,6 +94,7 @@ function theme(darkMode: boolean): DefaultTheme {
 
     //shadows
     shadow1: darkMode ? '#000' : '#2F80ED',
+    shadow2: darkMode ? '0 4px 8px 0 rgb(0 0 0 / 5%)' : '0 4px 8px 0 rgb(47 128 237 / 5%)',
 
     // media queries
     mediaWidth: mediaWidthTemplates,

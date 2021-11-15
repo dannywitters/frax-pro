@@ -16,10 +16,16 @@ export interface Colors {
   text5: Color
   text6: Color
 
+  // modal backgrounds
+  modalBG: Color
+  modalBBOn: Color
+  modalBBOff: Color
+
   // backgrounds / greys
   bg0: Color
   bg1: Color
   bg2: Color
+  bg3: Color
 
   bgColor: Color
   bgImage: Color
@@ -31,6 +37,7 @@ declare module 'styled-components/macro' {
 
     // shadows
     shadow1: string
+    shadow2: string
 
     // media queries
     mediaWidth: {

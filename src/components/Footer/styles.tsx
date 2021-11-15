@@ -11,6 +11,13 @@ export const FooterFrame = styled.div`
   max-width: 1440px;
 `
 
+export const IconLinkWrapper = styled.a`
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: 10px;
+`
+
 export const LinkWrapper = styled.div`
   margin-left: auto;
   display: flex;

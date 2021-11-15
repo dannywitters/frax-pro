@@ -1,4 +1,9 @@
+import { X } from 'react-feather'
 import styled from 'styled-components/macro'
+
+export const CloseIcon = styled(X)<{ onClick: () => void }>`
+  cursor: pointer;
+`
 
 export const PageTitle = styled.div`
   font-weight: 600;

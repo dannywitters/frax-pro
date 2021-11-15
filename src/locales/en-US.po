@@ -59,14 +59,6 @@ msgstr "Analytics"
 msgid "Brightness"
 msgstr "Brightness"
 
-#: src/pages/Home/Tokens.tsx
-msgid "Buy FRAX"
-msgstr "Buy FRAX"
-
-#: src/pages/Home/Tokens.tsx
-msgid "Buy FXS"
-msgstr "Buy FXS"
-
 #: src/components/Header/index.tsx
 #: src/components/HeaderMenu/index.tsx
 msgid "Community"
@@ -83,6 +75,9 @@ msgstr "Discord"
 #: src/components/Footer/index.tsx
 msgid "Documentation"
 msgstr "Documentation"
+
+#~ msgid "Exchange"
+#~ msgstr "Exchange"
 
 #: src/components/Header/index.tsx
 #: src/components/HeaderMenu/index.tsx
@@ -144,6 +139,9 @@ msgstr "FXS Token"
 msgid "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
 msgstr "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
 
+#~ msgid "Farm"
+#~ msgstr "Farm"
+
 #: src/pages/AlgoStable/index.tsx
 msgid "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the \"fractional-algorithmic\" stability mechanism."
 msgstr "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the \"fractional-algorithmic\" stability mechanism."
@@ -181,6 +179,9 @@ msgstr "Learn"
 msgid "Learn More"
 msgstr "Learn More"
 
+#~ msgid "Lend"
+#~ msgstr "Lend"
+
 #: src/pages/FPI/index.tsx
 msgid "More info coming soon..."
 msgstr "More info coming soon..."
@@ -203,11 +204,13 @@ msgstr "Protocol Revenues"
 msgid "Resources"
 msgstr "Resources"
 
-#~ msgid "Switch Dark Mode"
-#~ msgstr "Switch Dark Mode"
+#: src/components/HeaderMenu/index.tsx
+msgid "Switch Dark Mode"
+msgstr "Switch Dark Mode"
 
-#~ msgid "Switch Light Mode"
-#~ msgstr "Switch Light Mode"
+#: src/components/HeaderMenu/index.tsx
+msgid "Switch Light Mode"
+msgstr "Switch Light Mode"
 
 #: src/components/Header/index.tsx
 msgid "Telegram"
@@ -239,6 +242,14 @@ msgstr "This page is being worked on. In the meantime, here are some helpful lin
 msgid "Total Supply"
 msgstr "Total Supply"
 
+#: src/pages/Home/Tokens.tsx
+msgid "Trade FRAX"
+msgstr "Trade FRAX"
+
+#: src/pages/Home/Tokens.tsx
+msgid "Trade FXS"
+msgstr "Trade FXS"
+
 #: src/components/Header/index.tsx
 #: src/components/HeaderMenu/index.tsx
 msgid "Trading App"
@@ -256,7 +267,7 @@ msgstr "Whitepaper"
 msgid "veFXS (FXS Staking)"
 msgstr "veFXS (FXS Staking)"
 
-#: src/components/HeaderMenu/index.tsx
-#: src/components/HeaderMenu/index.tsx
+#: src/components/BuyModal/FraxModal.tsx
+#: src/components/BuyModal/FxsModal.tsx
 msgid "{0}"
 msgstr "{0}"

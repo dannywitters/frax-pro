@@ -80,11 +80,11 @@ msgstr "FXS代币是平台的股份. 它天然就是不稳定的，并享有治�
 msgid "Learn More"
 msgstr "了解更多"
 
-msgid "Buy FRAX"
-msgstr "买 FRAX"
+msgid "Trade FRAX"
+msgstr "FRAX 交易"
 
-msgid "Buy FXS"
-msgstr "买 FXS"
+msgid "Trade FXS"
+msgstr "FXS 交易"
 
 msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
 msgstr "FPI代是一种新型的稳定币. Frax 即将推出，敬请期待更多信息..."
@@ -175,3 +175,12 @@ msgstr "关于 FRAX 的所有阅读材料, 博客和播客."
 
 msgid "Ordered by most recent."
 msgstr "按最近排序."
+
+msgid "Exchange"
+msgstr "交易所"
+
+msgid "Farm"
+msgstr "农场"
+
+msgid "Lend"
+msgstr "贷款"

@@ -115,7 +115,7 @@ export const TokenNumberDesc = styled.div`
   color: #878787;
 `
 
-export const TokenBuyButton = styled.a`
+export const TokenTradeButton = styled.div`
   width: 100%;
   height: 55px;
   background: #126809;
