@@ -59,7 +59,7 @@ export const TokenCard = styled.div`
   flex: 1 1 0%;
   height: 400px;
 
-  & :not(:first-child) {
+  &:not(:first-child) {
     margin-left: 32px;
 
     ${({ theme }) => theme.mediaWidth.upToSmall`

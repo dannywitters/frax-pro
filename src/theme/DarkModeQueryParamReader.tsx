@@ -12,6 +12,7 @@ export default function DarkModeQueryParamReader({ location }: RoutesProps): nul
     if (!location) return
     //if (location.length < 2) return
 
+    // @ts-ignore
     const parsed = parse(location, {
       parseArrays: false,
       ignoreQueryPrefix: true,

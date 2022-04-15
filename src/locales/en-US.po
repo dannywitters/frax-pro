@@ -76,8 +76,14 @@ msgstr "Discord"
 msgid "Documentation"
 msgstr "Documentation"
 
-#~ msgid "Exchange"
-#~ msgstr "Exchange"
+#: src/components/BuyModal/FraxModal.tsx
+#: src/components/BuyModal/FxsModal.tsx
+msgid "Exchange"
+msgstr "Exchange"
+
+#: src/pages/FPI/index.tsx
+msgid "FPI Inflation Hedge"
+msgstr "FPI Inflation Hedge"
 
 #: src/components/Header/index.tsx
 #: src/components/HeaderMenu/index.tsx
@@ -86,12 +92,12 @@ msgid "FPI Token"
 msgstr "FPI Token"
 
 #: src/pages/Home/Tokens.tsx
-msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
-msgstr "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
+msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index."
+msgstr "FPI tokens are a new type of stablecoin pegged to a crypto native price index."
 
 #: src/pages/FPI/index.tsx
-msgid "FPI will be launching Nov/Dec 2021."
-msgstr "FPI will be launching Nov/Dec 2021."
+#~ msgid "FPI will be launching Nov/Dec 2021."
+#~ msgstr "FPI will be launching Nov/Dec 2021."
 
 #: src/components/Header/index.tsx
 #: src/components/HeaderMenu/index.tsx
@@ -139,8 +145,10 @@ msgstr "FXS Token"
 msgid "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
 msgstr "FXS tokens are the value accrual and governance tokens of the entire Frax ecosystem. All utility is concentrated into FXS."
 
-#~ msgid "Farm"
-#~ msgstr "Farm"
+#: src/components/BuyModal/FraxModal.tsx
+#: src/components/BuyModal/FxsModal.tsx
+msgid "Farm"
+msgstr "Farm"
 
 #: src/pages/AlgoStable/index.tsx
 msgid "Frax is the first and only stablecoin with parts of its supply backed by collateral and parts of the supply algorithmic. This means FRAX is the first stablecoin to have part of its supply floating/unbacked. The stablecoin (FRAX) is named after the \"fractional-algorithmic\" stability mechanism."
@@ -176,20 +184,23 @@ msgstr "Learn"
 #: src/pages/Home/Revenues.tsx
 #: src/pages/Home/Tokens.tsx
 #: src/pages/Home/Tokens.tsx
+#: src/pages/Home/Tokens.tsx
 msgid "Learn More"
 msgstr "Learn More"
 
-#~ msgid "Lend"
-#~ msgstr "Lend"
+#: src/components/BuyModal/FraxModal.tsx
+msgid "Lend"
+msgstr "Lend"
 
 #: src/pages/FPI/index.tsx
-msgid "More info coming soon..."
-msgstr "More info coming soon..."
+#~ msgid "More info coming soon..."
+#~ msgstr "More info coming soon..."
 
 #: src/pages/Resources/index.tsx
 msgid "Ordered by most recent."
 msgstr "Ordered by most recent."
 
+#: src/pages/Home/Tokens.tsx
 #: src/pages/Home/Tokens.tsx
 msgid "Price"
 msgstr "Price"
@@ -243,6 +254,10 @@ msgid "Total Supply"
 msgstr "Total Supply"
 
 #: src/pages/Home/Tokens.tsx
+msgid "Trade FPI"
+msgstr "Trade FPI"
+
+#: src/pages/Home/Tokens.tsx
 msgid "Trade FRAX"
 msgstr "Trade FRAX"
 
@@ -269,5 +284,5 @@ msgstr "veFXS (FXS Staking)"
 
 #: src/components/BuyModal/FraxModal.tsx
 #: src/components/BuyModal/FxsModal.tsx
-msgid "{0}"
-msgstr "{0}"
+#~ msgid "{0}"
+#~ msgstr "{0}"

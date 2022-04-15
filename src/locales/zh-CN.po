@@ -86,8 +86,14 @@ msgstr "FRAX 交易"
 msgid "Trade FXS"
 msgstr "FXS 交易"
 
-msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index. Launching soon, stay tuned..."
+msgid "Trade FPI"
+msgstr "FPI 交易"
+
+msgid "FPI tokens are a new type of stablecoin pegged to a crypto native price index."
 msgstr "FPI代是一种新型的稳定币. Frax 即将推出，敬请期待更多信息..."
+
+msgid "FPI Inflation Hedge"
+msgstr "FPI 通胀对冲"
 
 msgid "Total Supply"
 msgstr "供应量"
